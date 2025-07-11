@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Debashish's Portfolio</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="header">
+    <a href="#" class="logo">DeBaShiSH</a>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HOME SECTION -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h1>Hi, I'm <span>Debashish Malakar</span></h1>
+      <div class="text-animate">
+        <h3>Teacher | Developer</h3>
+      </div>
+      <p>Web Developer and Designer from India.</p>
+      <div class="btn-box">
+        <a href="#contact" class="btn">Hire Me</a>
+        <a href="mailto:pampa.malakar2004@gmail.com" class="btn"><i class='bx bx-envelope'></i> Mail</a>
+      </div>
+    </div>
+    <div class="home-sci">
+      <a href="mailto:debashish.malakar@gmail.com"><i class='bx bx-envelope'></i></a>
+      <a href="https://www.linkedin.com/in/debashish-malakar-a31aa217?utm"><i class='bx bxl-linkedin'></i></a>
+      <a href="https://www.facebook.com/share/199caiqzvT/"><i class='bx bxl-facebook'></i></a>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about" id="about">
+    <h2 class="heading">About <span>Me</span></h2>
+    <div class="about-img">
+      <img src="image/profile.jpg" alt="Profile Image" />
+    </div>
+    <div class="about-content">
+      <h3></h3>
+      <p>Currently I’m teaching at Asansol Engineering College.I have 12 year teaching experience in the field of computer application.I hold a B.Sc. in Physics, followed by an M.Sc. and M.Tech in Computer Science.I'm passionate about teaching, academic research, and staying up-to-date with evolving technologies. </p>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section class="skills" id="skills">
+    <h2 class="heading">My <span>Skills</span></h2>
+    <div class="skills-row">
+      <div class="skills-column">
+        <h3 class="title">Coding</h3>
+        <div class="progress"><h3>C <span>100%</span></h3><div class="bar"><span style="--bar-width: 90%"></span></div></div>
+        <div class="progress"><h3>C++ <span>100%</span></h3><div class="bar"><span style="--bar-width: 85%"></span></div></div>
+        <div class="progress"><h3>Java <span>100%</span></h3><div class="bar"><span style="--bar-width: 70%"></span></div></div>
+        <div class="progress"><h3>Python <span>100%</span></h3><div class="bar"><span style="--bar-width: 90%"></span></div></div>
+        <div class="progress"><h3>R<span>100%</span></h3><div class="bar"><span style="--bar-width: 85%"></span></div></div>
+        <div class="progress"><h3>HTML <span>90%</span></h3><div class="bar"><span style="--bar-width: 90%"></span></div></div>
+        <div class="progress"><h3>CSS <span>95%</span></h3><div class="bar"><span style="--bar-width: 85%"></span></div></div>
+        <div class="progress"><h3>JavaScript <span>90%</span></h3><div class="bar"><span style="--bar-width: 70%"></span></div></div>
+      </div>
+      <div class="skills-column">
+        <h3 class="title">Professional</h3>
+        <div class="progress"><h3>Communication <span>80%</span></h3><div class="bar"><span style="--bar-width: 80%"></span></div></div>
+        <div class="progress"><h3>Creativity <span>75%</span></h3><div class="bar"><span style="--bar-width: 75%"></span></div></div>
+        <div class="progress"><h3>Problem Solving <span>70%</span></h3><div class="bar"><span style="--bar-width: 70%"></span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section class="projects" id="projects">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+    <div class="project-box">
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>A personal responsive website built using HTML, CSS, JavaScript showcasing projects and contact form.</p>
+      </div>
+      <div class="project">
+        <h3>To-Do App</h3>
+        <p>Simple to-do list app with local storage and dynamic task handling, built using JavaScript.</p>
+      </div>
+      <div class="project">
+        <h3>Weather App</h3>
+        <p>Fetches real-time weather data using API and displays conditions based on city input.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    <form action="https://formspree.io/f/moqgnazv" method="POST">
+      <div class="input-box">
+        <input type="text" name="name" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email Address" required>
+      </div>
+      <textarea name="message" cols="30" rows="6" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Debashish Malakar | All rights reserved</p>
+  </footer>
+
+  <script>
+    // ScrollReveal animations
+    ScrollReveal({
+      reset: true,
+      distance: '60px',
+      duration: 1000,
+      delay: 100
+    });
+
+    ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+    ScrollReveal().reveal('.home-sci, .about-img, .skills-column, .project, form', { origin: 'bottom' });
+    ScrollReveal().reveal('.about-content', { origin: 'right' });
+
+    // Menu toggle
+    const menuIcon = document.getElementById('menu-icon');
+    const navbar = document.querySelector('.navbar');
+
+    menuIcon.onclick = () => {
+      navbar.classList.toggle('active');
+    };
+  </script>
+</body>
+</html>
